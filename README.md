@@ -3,6 +3,8 @@
 
 Exercises in automated testing in Python, for students at the Lambda School!
 
+For an introduction to automated testing and software quality control at a conceptual level, feel free to consult these [notes](https://github.com/prof-rossetti/nyu-info-2335-201905/blob/master/notes/software/testing.md).
+
 ## Setup
 
 Fork [this repo](https://github.com/prof-rossetti/lambda-lecture-pytest) under your own control. Then download or clone it onto your local machine, and navigate into its root directory from the command-line:
@@ -26,7 +28,19 @@ pip install pytest
 
 OK, after installing "pytest" you're ready to proceed with the exercises!
 
-<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Game Exercise
 
@@ -62,7 +76,6 @@ Instructions:
 
 
 
-<hr>
 
 ## Parser Exercise
 
@@ -92,11 +105,17 @@ Instructions:
 
   1. Incrementally update the logic inside the `latest_closing_price()` function and re-run the parser test file until all its tests pass.
   2. After the tests are passing, try running the parser script again, and observe it should work with live data as well. This is because the mock data structure used in the test resembles the real data structure returned by the API.
-  3. Observe that you have successfully developed the logic of the `latest_closing_price()` in a test-driven manner, and also without issuing unnecessary HTTP requests!
+  3. Observe that you have successfully developed the logic of the `latest_closing_price()` in a test-driven manner, and without issuing unnecessary HTTP requests!
 
 
 
 
-<hr>
+
+## Further Exploration
+
+Thanks for your attention and I hope you enjoyed these exercises. :tada: :raised_hands: If you'd like to contribute an update or a fix to this repo, PRs are welcome!
+
+For more test-driven data processing exercises, see the [Omniparser Exercise](https://github.com/prof-rossetti/omniparser-starter-py).
+
 
 ## [License](/LICENSE.md)
