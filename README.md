@@ -5,6 +5,8 @@ Exercises in automated testing in Python, for students at the Lambda School!
 
 For an introduction to automated testing and software quality control at a conceptual level, feel free to consult these [notes](https://github.com/prof-rossetti/nyu-info-2335-201905/blob/master/notes/software/testing.md) and these [slides](https://docs.google.com/presentation/d/14QOUrGNlzHogoHuEctc-xpuQ2IlmlJh91b8ZAMySpzc/edit#slide=id.g5b8def5a3c_0_8).
 
+## [Screencast :movie_camera:](https://www.youtube.com/watch?v=pS8pzmtqxVA)
+
 ## Setup
 
 Fork [this repo](https://github.com/prof-rossetti/lambda-lecture-pytest) under your own control. Then download or clone it onto your local machine, and navigate into its root directory from the command-line:
