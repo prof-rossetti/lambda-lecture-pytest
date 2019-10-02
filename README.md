@@ -38,7 +38,7 @@ In the file called "app/game.py" there is an unfinished game of rock-paper-sciss
 python app/game.py
 ```
 
-After playing the game one or more times, you'll realize it erroneously always results in a tie. Hey, that's not right! **Your objective is to fix the bug in the game's logic so it can properly determine the real winner**.
+After playing the game one or more times, you'll realize it erroneously always results in a tie. Hey, that's not right! **Your objective is to fix the bug in the game's logic so it properly determines the real winner**.
 
 Before you move on to tackling this objective, take a minute to observe the contents of the test file called "test/game_test.py", and run it:
 
@@ -64,9 +64,9 @@ Instructions:
 
 <hr>
 
-## Data Exercise
+## Parser Exercise
 
-For this exercise, we're going to issue an HTTP request to a stock market data API, and attempt to determine what the latest closing price is for the given stock symbol. To issue the requests, we'll be using a few packages, so install them now:
+For this exercise, we're going to issue an HTTP request to a [stock market data API](https://www.alphavantage.co/), and attempt to determine what the latest closing price is for the given stock symbol. To issue the requests, we'll need a few packages, so install them now:
 
 ```sh
 pip install requests python-dotenv
@@ -91,8 +91,8 @@ You'll see one test is passing, but the other is failing. NOTE: There is no need
 Instructions:
 
   1. Incrementally update the logic inside the `latest_closing_price()` function and re-run the parser test file until all its tests pass.
-  2. After the tests are passing, try running the parser script again, and observe it should work with live data.
-  3. Observe that you have developed the logic of the `latest_closing_price()` without issuing unnecessary HTTP requests!
+  2. After the tests are passing, try running the parser script again, and observe it should work with live data as well. This is because the mock data structure used in the test resembles the real data structure returned by the API.
+  3. Observe that you have successfully developed the logic of the `latest_closing_price()` in a test-driven manner, and also without issuing unnecessary HTTP requests!
 
 
 
