@@ -5,7 +5,7 @@ Exercises in automated testing in Python, for students at the Lambda School!
 
 ## Setup
 
-Fork [this repo](_______) under your own control. Then download or clone it onto your local machine, and navigate into its root directory from the command-line:
+Fork [this repo](https://github.com/prof-rossetti/lambda-lecture-pytest) under your own control. Then download or clone it onto your local machine, and navigate into its root directory from the command-line:
 
 ```sh
 cd lambda-lecture-pytest/
