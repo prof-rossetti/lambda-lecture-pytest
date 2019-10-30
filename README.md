@@ -1,6 +1,6 @@
 
 # Lambda Lecture (Pytest)
-
+# with Sam
 Exercises in automated testing in Python, for students at the Lambda School!
 
 For an introduction to automated testing and software quality control at a conceptual level, feel free to consult these [notes](https://github.com/prof-rossetti/nyu-info-2335-201905/blob/master/notes/software/testing.md) and these [slides](https://docs.google.com/presentation/d/14QOUrGNlzHogoHuEctc-xpuQ2IlmlJh91b8ZAMySpzc/edit#slide=id.g5b8def5a3c_0_8).
